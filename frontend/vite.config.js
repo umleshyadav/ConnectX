@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'http://localhost:3000',
+        target:'https://connectx-ccyj.onrender.com/',
         secure:false
       }
     }
