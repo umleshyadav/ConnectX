@@ -4,7 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 import {TiMessages} from "react-icons/ti";
 import { IoArrowBackSharp, IoSend } from 'react-icons/io5';
 import axios from 'axios';
-import { useSocketContext } from 'frontend\src\context\SocketContext.jsx';
+import { useSocketContext } from '../../context/SocketContext'; 
 import notify from'../../assets/sound/notification.mp3'
 
 
