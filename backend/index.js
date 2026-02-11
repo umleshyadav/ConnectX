@@ -24,7 +24,7 @@ app.use('/api/user',userRouter);
 
 app.use(express.static(path.join(__dirname,"/frontend/dist")))
 
-app.use((req,res)=>{
+app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname,"frontend","dist","index.html"))
 })
 
